@@ -41,7 +41,7 @@ const planeGeometry = new THREE.PlaneGeometry(5, 3, 32, 32);
 
 // Load a texture
 const textureLoader = new THREE.TextureLoader();
-const textureMat = textureLoader.load('mat.jpg');
+const textureMat = textureLoader.load("texture/mat.jpg");
 
 console.log(textureMat);
 
