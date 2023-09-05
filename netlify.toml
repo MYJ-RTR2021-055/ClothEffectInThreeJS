@@ -1,2 +1,6 @@
 [build]
 publish = "dist" 
+[[headers]]
+for = "/*.jpg"
+[headers.values]
+Content-Type = "image/jpeg"
